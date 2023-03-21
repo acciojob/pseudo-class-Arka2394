@@ -5,8 +5,8 @@
 }
 .two{
 	position:relative;
-	left:140px;
-	top:-44px
+/* 	left:140px;
+	top:-44px */
 }
 .three{
 	position:relative;
@@ -17,5 +17,9 @@
 }
 .one::before {
   content: "Before Element";
+  color: red;
+}
+.three::after {
+  content: "After Element";
   color: red;
 }
