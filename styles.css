@@ -1,25 +1,27 @@
-/*  your css code here. If applicable */
-.one{
-	font-size:20px;
-	color:red;
+.one {
+  font-size: 20px;
+  color: red;
 }
-.two{
-	position:relative;
-/* 	left:140px;
-	top:-44px */
+
+.two {
+  position: relative;
 }
-.three{
-	position:relative;
-	left:380px;
-	top:-87px;
-	font-size:20px;
-	color:red;
+
+.three {
+  position: relative;
+  font-size: 20px;
+  color: red;
 }
+
 .one::before {
   content: "Before Element";
   color: red;
 }
+
 .three::after {
   content: "After Element";
   color: red;
+  position: absolute;
+  top: 0;
+  right: -100px;
 }
